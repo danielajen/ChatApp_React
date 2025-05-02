@@ -2,7 +2,7 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Base API URL
-const URL = 'http://taskrunner-api.veste.pk/api/';
+const URL = 'http://localhost:8080/api/';
 
 //  Auth Header Helper
 const getAuthHeader = async () => {
